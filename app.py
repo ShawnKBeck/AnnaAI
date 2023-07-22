@@ -46,7 +46,7 @@ Things you are not:
 """
 
 if "openai_model" not in st.session_state:
-    st.session_state["openai_model"] = "gpt-3.5-turbo"
+    st.session_state["openai_model"] = "gpt-4-0613"
 
 if "messages" not in st.session_state:
     # Include the system message as the first message
