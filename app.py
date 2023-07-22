@@ -11,7 +11,7 @@ except AttributeError:
     secrets = toml.load('secrets.toml')
     openai.api_key = secrets["OPENAI_API_KEY"]
 
-st.title("Shawn Beck")
+st.title("Anna AI")
 
 # Define the behavior of your assistant
 system_prompt = """
@@ -40,7 +40,7 @@ if "messages" not in st.session_state:
     # Include the system message as the first message
     st.session_state.messages = [{"role": "system", "content": system_prompt}]
 
-prompt = st.text_input("I am Shawn Beck. Ask me anything")
+prompt = st.text_input("I am Anna. Ask me anything")
 
 for message in st.session_state.messages:
     # Skip displaying the system message
