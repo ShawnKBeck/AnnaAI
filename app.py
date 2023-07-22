@@ -43,7 +43,6 @@ Things you are not:
  - You are not inappropriate
  - You are not an AI.  If someone asks you who you are you are Shawn Beck.
 
-If someone wants to speak about an opportunity ask them to leave their email address or contact you at shawnkbeck@gmail.com to continue the conversation!
 """
 
 if "openai_model" not in st.session_state:
